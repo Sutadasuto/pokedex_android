@@ -68,6 +68,8 @@ The classifier and its class-to-Pokédex mapping are bundled in `app\src\main\as
 
 To use a different model, replace the ONNX file and update the labels JSON to match its output classes and Pokédex IDs. Keep the filenames expected by the app, or update the asset-loading code as well.
 
+To train your own model, you can check [this Github repo](https://github.com/Sutadasuto/pokedex_project).
+
 ## Notes
 
 - Classification is performed locally; PokéAPI lookups and remote Pokémon artwork require internet access.
